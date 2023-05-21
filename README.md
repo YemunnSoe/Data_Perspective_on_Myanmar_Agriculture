@@ -6,18 +6,14 @@ In 2015-2016, economic growth in Myanmar eased to 7 percent amid a supply shock 
 
 These in turn had knock on effects beyond agriculture in food processing, trading, and transportation services. A combination of all this will have negatively affected household incomes and food inscurity .[(Source: World Bank, Myanmar Economic Monitor May 2016)](https://bit.ly/3BGLvJQ)
 
-
-![](./Diagrams/1_System_Architecture.png)
-
 > The objective of this project is to utilize existing data to develop an engaging and comprehensive interactive report. The primary focus of this dashboard is the agricultural sector, as it seeks to leverage data to explore different (my) perspectives and approaches. The aim is to create visually compelling and informative representations that offer valuable insights and a glimpse into Myanmar's agriculture sector before the occurrence of the coup and the COVID-19 pandemic.
 
-![](./Diagrams/2_System_Architecture.png)
 
 # Project Deliverables
 - National Sector, Sub-sectors Description [(See More)](https://bit.ly/41ZTrAu)
 - Dashboard: Myanmar Agriculture Landscape (2016) [(Click HERE)](https://bit.ly/45gkCK9)
 
-### Current Situation 
+### Recent Myanmar Agriculture Landscape (2023)
 
 Since early 2020, Myanmar has faced a series of crises that have had a profound impact on its economy and its people, especially those living in poverty. The country has had to grapple with the COVID-19 pandemic, political and economic unrest following the military coup in February 2021, as well as disruptions in global commodity markets due to the war in Ukraine. These successive crises have taken a significant toll on various sectors, particularly the agri-food industry. Under the successive crises, the agri-food sector has been severely impacted,with huge implications for food and economic security, particularly for the large number of poor people living in rural areas. One the one hand, reduced incomes and higher prices are adversely affecting consumption and food security. On the other hand, rising input prices, especially for fertilizer and fuel, is disrupting agriculture production; many farmers have reduced the use of critical inputs, and in some cases, they are reducing cultivated area. Overall, the agriculture sector contracted by around 10 percent in FY 2021 (World Bank 2021b). It is estimated that paddy area planted in 2021–22 is 7 percent below the average of the past 3 years.".[(Read More About THIS)](https://bit.ly/3LUldK4)
 
@@ -29,7 +25,9 @@ For my portfolio project, I'm using secondary data sources. These sources help m
 - Ref: MIMU 5W Village Tract Dashboard [(See More)](https://themimu.info/5W_Dashboard_by_Village_Tract)
 - Ref: MIMU Datasets [(See More)](https://themimu.info/baseline-datasets)
 
-[](./Diagrams/Data-Model.png)
+
+![](./Diagrams/Data-Model.png)
+
 
 ### DAX used in this SAMPLE Dashboard
 
