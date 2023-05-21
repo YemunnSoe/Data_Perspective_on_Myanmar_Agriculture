@@ -15,25 +15,21 @@ These in turn had knock on effects beyond agriculture in food processing, tradin
 
 # Project Deliverables
 - National Sector, Sub-sectors Description [(See More)](https://bit.ly/41ZTrAu)
-- My Dashboard: Myanmar Agriculture Landscape (2016) [(Click HERE)](https://bit.ly/45gkCK9)
+- Dashboard: Myanmar Agriculture Landscape (2016) [(Click HERE)](https://bit.ly/45gkCK9)
+
+### Current Situation 
+
+Since early 2020, Myanmar has faced a series of crises that have had a profound impact on its economy and its people, especially those living in poverty. The country has had to grapple with the COVID-19 pandemic, political and economic unrest following the military coup in February 2021, as well as disruptions in global commodity markets due to the war in Ukraine. These successive crises have taken a significant toll on various sectors, particularly the agri-food industry. Under the successive crises, the agri-food sector has been severely impacted,with huge implications for food and economic security, particularly for the large number of poor people living in rural areas. One the one hand, reduced incomes and higher prices are adversely affecting consumption and food security. On the other hand, rising input prices, especially for fertilizer and fuel, is disrupting agriculture production; many farmers have reduced the use of critical inputs, and in some cases, they are reducing cultivated area. Overall, the agriculture sector contracted by around 10 percent in FY 2021 (World Bank 2021b). It is estimated that paddy area planted in 2021–22 is 7 percent below the average of the past 3 years.".[(Read More About THIS)](https://bit.ly/3LUldK4)
+
+
+# Data modelling
+For my portfolio project, I'm using secondary data sources. These sources help me save time on data preparation and transformation, as well as some ETL processes. However, I need to unpivot certain tables to optimize my DAX and improve interactivity in the data visualizations. The data sources I've included are:
+
 - Ref: MIMU 5W Overview Dashboard [(See More)](https://themimu.info/5w-overview-dashboard)
 - Ref: MIMU 5W Village Tract Dashboard [(See More)](https://themimu.info/5W_Dashboard_by_Village_Tract)
 - Ref: MIMU Datasets [(See More)](https://themimu.info/baseline-datasets)
 
-
-### Analytical Approach
-
-![](./Diagrams/Prescriptive_Analytics.png)
-
-
-# Data modelling
-I use pre-aggregated data for this portfolio project. It helps me reduce the amount of data and sensitive information that needs to be processed for analyses or reporting. It involves summarizing or grouping data at a higher level of granularity, such as by week or month, instead of processing every individual record. I use THREE pre-aggregation methods:
-
-Summarizing data by time intervals (daily basics)
-Aggregating data by categories (less granularity in dimension data)
-Filtering data to exclude irrelevant records (omit sensitive information)
-
-[](./Diagrams/1_Data_Model.png)
+[](./Diagrams/Data-Model.png)
 
 ### DAX used in this SAMPLE Dashboard
 
@@ -99,13 +95,12 @@ RETURN
     )
 ```
 # Dashboard [(See More)](https://bit.ly/45gkCK9)
-![](./Diagrams/1_Dashboard.png)
-> This comprehensive overview tab offers valuable insights into the seasonal trends of farming practices, empowering users to effortlessly switch between key metrics. This functionality enables the flexibility to adapt and optimize chat flow and digital campaign strategies, ensuring effective customer reach and engagement.
+![](./Diagrams/Dashboard-1.png)
+> This tab provides a comprehensive overview of cultivated land, major crop harvests, and production per acre. This measure allows for a more nuanced assessment of crop productivity and efficiency. To facilitate deeper analysis, the tab allows you to disaggregate the data by major crop and state/region. This breakdown enables you to explore variations in agricultural production across different crop types and geographical locations within Myanmar.
 
-![](./Diagrams/2_Dashboard.png)
-> Within this tab, you will find a comprehensive and detailed analysis of the geographical coverage achieved by our campaign across the entire country. This section also presents an insightful examination of the various types of crops and farming practices that our customers have actively engaged in. It offers a deep and thorough exploration of the performance and effectiveness of AgronomyBot in addressing the challenges faced by farmers. These proactive measures aim to mitigate the occurrence of farming disasters and promote sustainable agricultural practices.
+![](./Diagrams/Dashboard-2.png)
+> This tab focuses on highlighting the diverse range of agricultural and food security projects and programs implemented by INGOs, NGOs, and social impact organizations in Myanmar. The dashboard and its original data source primarily provide information on the number and scope of these initiatives, without measuring their size and budget. By exploring this tab, you can gain insights into the extensive array of agriculture-related activities aimed at promoting food security in Myanmar. It showcases the collective efforts of various organizations working towards sustainable agriculture, rural development, and enhancing food access and availability. Although the tab does not provide specific details regarding the size and budget of each project or program, it serves as a valuable resource for understanding the breadth and depth of these initiatives. You can gain an overview of the diverse types of interventions being carried out, such as capacity-building programs, agricultural extension services, market development initiatives, and community empowerment projects in original dashboards. [(MIMU 5W Village Tract Dashboard)](https://themimu.info/5W_Dashboard_by_Village_Tract).
 
-![](./Diagrams/3_Dashboard.png)
-> This dashboard section delves into the customer journey (or) funnel, with a specific emphasis on key metrics that provide a deeper understanding of the customer journey, operational efficiency, OPEX, and enables the team to make informed decisions during campaign periods. Moreover, leveraging this knowledge allows us to run prescriptive analysis for setting campaign targets in the upcoming fiscal year.
+![](./Diagrams/Dashboard-3.png)
+> This section of the dashboard encompasses both historical data and simulation results, primarily focused on assessing the impact generated by [AgronomyBot](https://github.com/YemunnSoe/AgronomyBot). The main purpose of this tab is to measure the magnitude of the impact achieved through the utilization of AgronomyBot. The key metrics highlighted in this section include the estimated population of smallholder farmers and the penetration rate of AgronomyBot. The tab highlights the penetration rate of AgronomyBot, indicating the extent to which this technology has been adopted and utilized by smallholder farmers. This metric serves as an indicator of the effectiveness and acceptance of AgronomyBot within the agricultural community. By leveraging this information, stakeholders, policymakers, and researchers can better understand the reach and effectiveness of AgronomyBot in supporting smallholder farmers. It provides a basis for assessing the contribution of this technology towards improving agricultural practices, increasing productivity, and enhancing the livelihoods of smallholder farmers.
 
-Since early 2020, Myanmar has faced a series of crises that have had a profound impact on its economy and its people, especially those living in poverty. The country has had to grapple with the COVID-19 pandemic, political and economic unrest following the military coup in February 2021, as well as disruptions in global commodity markets due to the war in Ukraine. These successive crises have taken a significant toll on various sectors, particularly the agri-food industry. Under the successive crises, the agri-food sector has been severely impacted,with huge implications for food and economic security, particularly for the large number of poor people living in rural areas. One the one hand, reduced incomes and higher prices are adversely affecting consumption and food security. On the other hand, rising input prices, especially for fertilizer and fuel, is disrupting agriculture production; many farmers have reduced the use of critical inputs, and in some cases, they are reducing cultivated area. Overall, the agriculture sector contracted by around 10 percent in FY 2021 (World Bank 2021b). It is estimated that paddy area planted in 2021–22 is 7 percent below the average of the past 3 years.".[(Read More About THIS)](https://bit.ly/3LUldK4)
