@@ -103,7 +103,7 @@ Since early 2020, Myanmar has faced a series of crises that have had a profound 
 
 In addition to the information provided, I have included FAO Earth Observation satellite image data from May 22 to provide a more comprehensive context of how farming communities are being impacted not only by political turmoil such as coups, the ongoing challenges of COVID-19, and economic downturns but also by the forces of nature. These satellite images offer valuable insights into the current state of these communities.[(FAO Earth Observation)](https://www.fao.org/giews/earthobservation/country/index.jsp?lang=en&code=MMR)
 
-![](./Diagrams/Myanmar-Agri Stress-Index.png)
+![](./Diagrams/Myanmar-Agri-Stress-Index.png)
 > The Agricultural Stress Index (ASI) is a quick-look indicator that facilitates the early identification of cropped land with a high likelihood of water stress (drought).
 
 ![](./Diagrams/Myanmar-Vege-Condition-Index.png)
